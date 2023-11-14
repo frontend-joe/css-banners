@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation 1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="banner">
+      <img src="me.png" />
+      <div class="banner-content">
+        <h2>Hello</h2>
+        <p>
+          I'm Joe, a talented frontend developer that loves creating immersive
+          web experiences.
+        </p>
+      </div>
+    </section>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28"
+      preserveAspectRatio="none"
+    >
+      <defs>
+        <path
+          id="gentle-wave"
+          d="M-160 44c30 0 
+        58-18 88-18s
+        58 18 88 18 
+        58-18 88-18 
+        58 18 88 18
+        v44h-352z"
+        />
+      </defs>
+      <g class="waves">
+        <use
+          xlink:href="#gentle-wave"
+          x="50"
+          y="0"
+          fill="#03ffff"
+          fill-opacity=".2"
+        />
+        <use
+          xlink:href="#gentle-wave"
+          x="50"
+          y="3"
+          fill="#03ffff"
+          fill-opacity=".5"
+        />
+        <use
+          xlink:href="#gentle-wave"
+          x="50"
+          y="6"
+          fill="#03ffff"
+          fill-opacity=".9"
+        />
+      </g>
+    </svg>
+  </body>
+</html>
