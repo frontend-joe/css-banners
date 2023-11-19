@@ -25,6 +25,12 @@ section {
   margin-bottom: 40px;
 }
 
+.auto-typing{
+  font-size: 25px;
+  color: #fff;
+  line-height: 2;
+}
+
 @media (width <= 620px) {
   .banner {
     text-align: center;
@@ -46,14 +52,25 @@ section {
   background: #1b1526;
 }
 
+p{
+  font-size: 25px;
+}
+
+.first, .second, .third{
+  color: red;
+}
+ 
+
 .banner h2 {
   white-space: nowrap;
   margin: 0 0 4px;
-  font-size: 40px;
+  font-size: 60px;
   color: rgb(255 255 255 / 96%);
 }
 
 .banner h3 {
+  line-height: 2;
+  font-size: 25px;
   font-weight: 400;
   margin: 0;
   color: rgb(255 255 255 / 57%);
